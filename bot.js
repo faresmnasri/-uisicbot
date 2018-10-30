@@ -314,7 +314,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-    if (message.content === 'help') {
+    if (message.content === '+help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**RULES FALLEGA MUISIC...**')
         .setDescription('**perfix BOT (.)**')
@@ -332,7 +332,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'general_commands') {
+    if (message.content === '+general_commands') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**GENERAL commands muisic bot...**')
         .addField('avatar', "AVATAR PERSON")
