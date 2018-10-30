@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "2";
+const prefix = "/";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : FALLEGA TEAM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`.Help | Last Music`,"http://twitch.tv/Death Shop")
+client.user.setGame(`.Help | FALLEGA MUISIC `,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
